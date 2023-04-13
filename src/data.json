@@ -1,0 +1,209 @@
+{
+  "config": {
+    "name": "ibrohim-margiyani",
+    "bgm": "https://cdngarenanow-a.akamaihd.net/gstaticid/BMG/wildwet/sounds/love-song-3.mp3"
+  },
+  "header": {
+    "bgImageLandscape": [
+      "/assets/images/bg-1.jpg",
+      "/assets/images/bg-2.jpg",
+      "/assets/images/bg-3.jpg"
+    ],
+    "bgImagePortrait": [
+      "/assets/images/bg-4.jpg",
+      "/assets/images/bg-5.jpg",
+      "/assets/images/bg-6.jpg"
+    ],
+    "bridegroom": "Ibrohim & Margiyani",
+    "desc": "ARE GETTING MARRIED",
+    "date": "DECEMBER 31TH 2023",
+    "timestamp": 1703989800000,
+    "ongoing": "ONGOING",
+    "days": "DAYS",
+    "hours": "HOURS",
+    "minutes": "MINUTES",
+    "seconds": "SECONDS",
+    "line1": "Kindly deliver to: Mr. / Mrs. / Ms.",
+    "line2": "We invite you to celebrate our wedding",
+    "button": "Open Invitation"
+  },
+  "navbar": {
+    "brand": "I & M",
+    "nav": [
+      {
+        "to": "header",
+        "text": "Home"
+      },
+      {
+        "to": "couple",
+        "text": "Couple"
+      },
+      {
+        "to": "events",
+        "text": "Events"
+      },
+      {
+        "to": "moment",
+        "text": "Moment"
+      },
+      {
+        "to": "location",
+        "text": "Location"
+      }
+    ]
+  },
+  "couple": {
+    "title": "Meet Happy Couple",
+    "groom": {
+      "name": "IBROHIM MAHMUD HANAFI",
+      "photo": "/assets/images/couple/1.jpg",
+      "status": "GROOM",
+      "socmed": {
+        "facebook": "",
+        "twitter": "",
+        "instagram": "https://www.instagram.com/bl_int/"
+      },
+      "description": "The first son of Aan Muhtadi and Mutmainah"
+    },
+    "bride": {
+      "name": "MARGIYANI ANIS FITRIA",
+      "photo": "/assets/images/couple/2.jpg",
+      "status": "BRIDE",
+      "socmed": {
+        "facebook": "",
+        "twitter": "",
+        "instagram": "https://www.instagram.com/mgiyani_anis/"
+      },
+      "description": "The third daughter of Maryono and Rasmi"
+    }
+  },
+  "events": {
+    "ceremony": {
+      "type": "ceremony",
+      "photo": "/assets/images/events/ceremony.png",
+      "title": "THE CEREMONY",
+      "date": "Saturday, July 18th 2020",
+      "time": "02.00 PM - 05.00 PM",
+      "address": {
+        "line1": "KUA Kebonarum, Pluneng",
+        "line2": "Kec. Kebonarum Kab. Klaten",
+        "line3": "-"
+      }
+    },
+    "reception": {
+      "type": "reception",
+      "photo": "/assets/images/events/reception.png",
+      "title": "THE RECEPTION",
+      "date": "Saturday, September 5th 2020",
+      "time": "10.00 AM - 04.00 PM",
+      "address": {
+        "line1": "KUA Kebonarum, Pluneng",
+        "line2": "Kec. Kebonarum Kab. Klaten",
+        "line3": "-"
+      }
+    }
+  },
+  "moment": {
+    "images": [
+      {
+        "src": "/assets/images/moment/1.jpg",
+        "thumbnail": "/assets/images/moment/thumbnails/1.jpg",
+        "thumbnailWidth": 320,
+        "thumbnailHeight": 200
+      },
+      {
+        "src": "/assets/images/moment/2.jpg",
+        "thumbnail": "/assets/images/moment/thumbnails/2.jpg",
+        "thumbnailWidth": 240,
+        "thumbnailHeight": 320
+      },
+      {
+        "src": "/assets/images/moment/3.jpg",
+        "thumbnail": "/assets/images/moment/thumbnails/3.jpg",
+        "thumbnailWidth": 320,
+        "thumbnailHeight": 200
+      },
+      {
+        "src": "/assets/images/moment/4.jpg",
+        "thumbnail": "/assets/images/moment/thumbnails/4.jpg",
+        "thumbnailWidth": 240,
+        "thumbnailHeight": 320
+      },
+      {
+        "src": "/assets/images/moment/5.jpg",
+        "thumbnail": "/assets/images/moment/thumbnails/5.jpg",
+        "thumbnailWidth": 320,
+        "thumbnailHeight": 200
+      },
+      {
+        "src": "/assets/images/moment/6.jpg",
+        "thumbnail": "/assets/images/moment/thumbnails/6.jpg",
+        "thumbnailWidth": 240,
+        "thumbnailHeight": 320
+      },
+      {
+        "src": "/assets/images/moment/7.jpg",
+        "thumbnail": "/assets/images/moment/thumbnails/7.jpg",
+        "thumbnailWidth": 320,
+        "thumbnailHeight": 200
+      },
+      {
+        "src": "/assets/images/moment/8.jpg",
+        "thumbnail": "/assets/images/moment/thumbnails/8.jpg",
+        "thumbnailWidth": 320,
+        "thumbnailHeight": 200
+      },
+      {
+        "src": "/assets/images/moment/9.jpg",
+        "thumbnail": "/assets/images/moment/thumbnails/9.jpg",
+        "thumbnailWidth": 240,
+        "thumbnailHeight": 320
+      },
+      {
+        "src": "/assets/images/moment/10.jpg",
+        "thumbnail": "/assets/images/moment/thumbnails/10.jpg",
+        "thumbnailWidth": 320,
+        "thumbnailHeight": 200
+      },
+      {
+        "src": "/assets/images/moment/11.jpg",
+        "thumbnail": "/assets/images/moment/thumbnails/11.jpg",
+        "thumbnailWidth": 240,
+        "thumbnailHeight": 320
+      },
+      {
+        "src": "/assets/images/moment/12.jpg",
+        "thumbnail": "/assets/images/moment/thumbnails/12.jpg",
+        "thumbnailWidth": 320,
+        "thumbnailHeight": 200
+      },
+      {
+        "src": "/assets/images/moment/13.jpg",
+        "thumbnail": "/assets/images/moment/thumbnails/13.jpg",
+        "thumbnailWidth": 240,
+        "thumbnailHeight": 320
+      },
+      {
+        "src": "/assets/images/moment/14.jpg",
+        "thumbnail": "/assets/images/moment/thumbnails/14.jpg",
+        "thumbnailWidth": 320,
+        "thumbnailHeight": 240
+      },
+      {
+        "src": "/assets/images/moment/15.jpg",
+        "thumbnail": "/assets/images/moment/thumbnails/15.jpg",
+        "thumbnailWidth": 240,
+        "thumbnailHeight": 320
+      },
+      {
+        "src": "/assets/images/moment/16.jpg",
+        "thumbnail": "/assets/images/moment/thumbnails/16.jpg",
+        "thumbnailWidth": 320,
+        "thumbnailHeight": 240
+      }
+    ]
+  },
+  "location": {
+    "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d285.53755042111686!2d110.56296259238285!3d-7.699906084245301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a437ea0610f0d%3A0x8ed9959767937a6f!2sKUA%20Kecamatan%20Kebonarum!5e0!3m2!1sid!2sid!4v1681321870136!5m2!1sid!2sid"
+  }
+}
