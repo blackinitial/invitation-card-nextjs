@@ -1,20 +1,20 @@
 {
   "config": {
-    "name": "ibrohim-margiyani",
+    "name": "ramadhani-listya",
     "bgm": "https://cdngarenanow-a.akamaihd.net/gstaticid/BMG/wildwet/sounds/love-song-3.mp3"
   },
   "header": {
     "bgImageLandscape": [
-      "/assets/images/bg-1.jpg",
-      "/assets/images/bg-2.jpg",
-      "/assets/images/bg-3.jpg"
+      "/assets/images/bg-1.jpeg",
+      "/assets/images/bg-2.jpeg",
+      "/assets/images/bg-3.jpeg"
     ],
     "bgImagePortrait": [
-      "/assets/images/bg-4.jpg",
-      "/assets/images/bg-5.jpg",
-      "/assets/images/bg-6.jpg"
+      "/assets/images/bg-4.jpeg",
+      "/assets/images/bg-5.jpeg",
+      "/assets/images/bg-6.jpeg"
     ],
-    "bridegroom": "Ibrohim & Margiyani",
+    "bridegroom": "Ramadhani & Listya",
     "desc": "ARE GETTING MARRIED",
     "date": "DECEMBER 31TH 2023",
     "timestamp": 1703989800000,
@@ -55,26 +55,26 @@
   "couple": {
     "title": "Meet Happy Couple",
     "groom": {
-      "name": "IBROHIM MAHMUD HANAFI",
-      "photo": "/assets/images/couple/1.jpg",
+      "name": "RAMADHANI MUBARAK",
+      "photo": "/assets/images/couple/1.jpeg",
       "status": "GROOM",
       "socmed": {
-        "facebook": "",
-        "twitter": "",
+        "facebook": "https://www.facebook.com/ibrohim.mahmud.hanafi",
+        "twitter": "https://twitter.com/bl_int",
         "instagram": "https://www.instagram.com/bl_int/"
       },
-      "description": "The first son of Aan Muhtadi and Mutmainah"
+      "description": "The first son of Makruf Ahmad and Fatimah"
     },
     "bride": {
-      "name": "MARGIYANI ANIS FITRIA",
-      "photo": "/assets/images/couple/2.jpg",
+      "name": "LISTYA WININGSIH",
+      "photo": "/assets/images/couple/2.jpeg",
       "status": "BRIDE",
       "socmed": {
-        "facebook": "",
-        "twitter": "",
-        "instagram": "https://www.instagram.com/mgiyani_anis/"
+        "facebook": "https://www.facebook.com/ibrohim.mahmud.hanafi",
+        "twitter": "https://twitter.com/bl_int",
+        "instagram": "https://www.instagram.com/bl_int/"
       },
-      "description": "The third daughter of Maryono and Rasmi"
+      "description": "The third daughter of Suseno and Anitasari"
     }
   },
   "events": {
@@ -107,97 +107,81 @@
     "images": [
       {
         "src": "/assets/images/moment/1.jpg",
-        "thumbnail": "/assets/images/moment/thumbnails/1.jpg",
         "thumbnailWidth": 320,
         "thumbnailHeight": 200
       },
       {
         "src": "/assets/images/moment/2.jpg",
-        "thumbnail": "/assets/images/moment/thumbnails/2.jpg",
         "thumbnailWidth": 240,
         "thumbnailHeight": 320
       },
       {
         "src": "/assets/images/moment/3.jpg",
-        "thumbnail": "/assets/images/moment/thumbnails/3.jpg",
         "thumbnailWidth": 320,
         "thumbnailHeight": 200
       },
       {
         "src": "/assets/images/moment/4.jpg",
-        "thumbnail": "/assets/images/moment/thumbnails/4.jpg",
         "thumbnailWidth": 240,
         "thumbnailHeight": 320
       },
       {
         "src": "/assets/images/moment/5.jpg",
-        "thumbnail": "/assets/images/moment/thumbnails/5.jpg",
         "thumbnailWidth": 320,
         "thumbnailHeight": 200
       },
       {
         "src": "/assets/images/moment/6.jpg",
-        "thumbnail": "/assets/images/moment/thumbnails/6.jpg",
         "thumbnailWidth": 240,
         "thumbnailHeight": 320
       },
       {
         "src": "/assets/images/moment/7.jpg",
-        "thumbnail": "/assets/images/moment/thumbnails/7.jpg",
         "thumbnailWidth": 320,
         "thumbnailHeight": 200
       },
       {
         "src": "/assets/images/moment/8.jpg",
-        "thumbnail": "/assets/images/moment/thumbnails/8.jpg",
         "thumbnailWidth": 320,
         "thumbnailHeight": 200
       },
       {
         "src": "/assets/images/moment/9.jpg",
-        "thumbnail": "/assets/images/moment/thumbnails/9.jpg",
         "thumbnailWidth": 240,
         "thumbnailHeight": 320
       },
       {
         "src": "/assets/images/moment/10.jpg",
-        "thumbnail": "/assets/images/moment/thumbnails/10.jpg",
         "thumbnailWidth": 320,
         "thumbnailHeight": 200
       },
       {
         "src": "/assets/images/moment/11.jpg",
-        "thumbnail": "/assets/images/moment/thumbnails/11.jpg",
         "thumbnailWidth": 240,
         "thumbnailHeight": 320
       },
       {
         "src": "/assets/images/moment/12.jpg",
-        "thumbnail": "/assets/images/moment/thumbnails/12.jpg",
         "thumbnailWidth": 320,
         "thumbnailHeight": 200
       },
       {
         "src": "/assets/images/moment/13.jpg",
-        "thumbnail": "/assets/images/moment/thumbnails/13.jpg",
         "thumbnailWidth": 240,
         "thumbnailHeight": 320
       },
       {
         "src": "/assets/images/moment/14.jpg",
-        "thumbnail": "/assets/images/moment/thumbnails/14.jpg",
         "thumbnailWidth": 320,
         "thumbnailHeight": 240
       },
       {
         "src": "/assets/images/moment/15.jpg",
-        "thumbnail": "/assets/images/moment/thumbnails/15.jpg",
         "thumbnailWidth": 240,
         "thumbnailHeight": 320
       },
       {
         "src": "/assets/images/moment/16.jpg",
-        "thumbnail": "/assets/images/moment/thumbnails/16.jpg",
         "thumbnailWidth": 320,
         "thumbnailHeight": 240
       }
