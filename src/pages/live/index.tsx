@@ -3,6 +3,7 @@ import data from '../../data.json';
 import { useState } from "react";
 import Header from "@/components/sections/header";
 import Couple from "@/components/sections/couple";
+import Events from "@/components/sections/events";
 
 export default function LivePage () {
   const [firstOpen, setFirstOpen] = useState(true);
@@ -15,6 +16,7 @@ export default function LivePage () {
       {!firstOpen && (
         <>
           <Couple data={data.couple} />
+          <Events data={data.events} />
         </>
       )}
       

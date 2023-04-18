@@ -51,9 +51,9 @@ const Header: React.FC<Props> = ({ data, firstOpen, setFirstOpen }) => {
         <div className="text-4xl bg-clip-text text-transparent bg-gradient-to-br from-rose-300 to-rose-600 capitalize mb-12">{data.date}</div>
         {firstOpen ? (
           <div className="flex-row justify-center items-center px-16 py-6 bg-white rounded-3xl">
-            <div className="text-xl text-slate-500 mb-3">{data.line1}</div>
-            <h1 className="font-mono text-4xl text-secondary mb-3">Receiver</h1>
-            <div className="text-xl text-slate-500 mb-6">{data.line2}</div>
+            <div className="text-xl text-slate-400 mb-4">{data.line1}</div>
+            <h1 className="font-mono text-4xl text-secondary mb-4">Rudi Tabuti</h1>
+            <div className="text-xl text-slate-400 mb-6">{data.line2}</div>
             <button
               className="font-medium tracking-wide text-white transition duration-200 rounded-xl shadow-md bg-primary px-6 py-3 hover:bg-secondary focus:shadow-outline focus:outline-none"
               onClick={() => { setFirstOpen(false) }}>

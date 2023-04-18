@@ -16,7 +16,7 @@
     ],
     "bridegroom": "Ramadhani & Listya",
     "desc": "ARE GETTING MARRIED",
-    "date": "DECEMBER 31TH 2023",
+    "date": "31 DECEMBER 2023",
     "timestamp": 1703989800000,
     "ongoing": "ONGOING",
     "days": "DAYS",
@@ -28,34 +28,39 @@
     "button": "Open Invitation"
   },
   "navbar": {
-    "brand": "I & M",
+    "brand": "R & L",
     "nav": [
       {
         "to": "header",
-        "text": "Home"
+        "text": "Home",
+        "icon": "home"
       },
       {
         "to": "couple",
-        "text": "Couple"
+        "text": "Couple",
+        "icon": "couple"
       },
       {
         "to": "events",
-        "text": "Events"
+        "text": "Events",
+        "icon": "event"
       },
       {
         "to": "moment",
-        "text": "Moment"
+        "text": "Moment",
+        "icon": "moment"
       },
       {
         "to": "location",
-        "text": "Location"
+        "text": "Location",
+        "icon": "location"
       }
     ]
   },
   "couple": {
     "title": "Meet Happy Couple",
     "groom": {
-      "name": "RAMADHANI MUBARAK",
+      "name": "Ramadhani Mubarak",
       "photo": "/assets/images/couple/1.jpeg",
       "status": "GROOM",
       "socmed": {
@@ -66,7 +71,7 @@
       "description": "The first son of Makruf Ahmad and Fatimah"
     },
     "bride": {
-      "name": "LISTYA WININGSIH",
+      "name": "Listya Winingsih",
       "photo": "/assets/images/couple/2.jpeg",
       "status": "BRIDE",
       "socmed": {
@@ -78,29 +83,22 @@
     }
   },
   "events": {
+    "title": "When & Where",
     "ceremony": {
       "type": "ceremony",
       "photo": "/assets/images/events/ceremony.png",
       "title": "THE CEREMONY",
-      "date": "Saturday, July 18th 2020",
-      "time": "02.00 PM - 05.00 PM",
-      "address": {
-        "line1": "KUA Kebonarum, Pluneng",
-        "line2": "Kec. Kebonarum Kab. Klaten",
-        "line3": "-"
-      }
+      "date": "Sunday, 31 Desember 2023",
+      "time": "09.00 AM - 12.00 AM",
+      "address": "KUA Kebonarum, Pluneng\nKec. Kebonarum Kab. Klaten"
     },
     "reception": {
       "type": "reception",
       "photo": "/assets/images/events/reception.png",
       "title": "THE RECEPTION",
-      "date": "Saturday, September 5th 2020",
-      "time": "10.00 AM - 04.00 PM",
-      "address": {
-        "line1": "KUA Kebonarum, Pluneng",
-        "line2": "Kec. Kebonarum Kab. Klaten",
-        "line3": "-"
-      }
+      "date": "Sunday, 31 Desember 2023",
+      "time": "09.00 AM - 12.00 AM",
+      "address": "KUA Kebonarum, Pluneng\nKec. Kebonarum Kab. Klaten"
     }
   },
   "moment": {

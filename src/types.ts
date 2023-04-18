@@ -36,6 +36,7 @@ export interface Socmed {
 }
 
 export interface Events {
+  title: string;
   ceremony:  Ceremony;
   reception: Ceremony;
 }
@@ -46,13 +47,7 @@ export interface Ceremony {
   title:   string;
   date:    string;
   time:    string;
-  address: Address;
-}
-
-export interface Address {
-  line1: string;
-  line2: string;
-  line3: string;
+  address: string;
 }
 
 export interface Header {
@@ -95,4 +90,5 @@ export interface Navbar {
 export interface Nav {
   to:   string;
   text: string;
+  icon: string;
 }

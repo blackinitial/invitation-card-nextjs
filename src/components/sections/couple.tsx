@@ -14,13 +14,14 @@ const Person = ({ person }: any) => {
       <Image 
         src={person.photo} alt={`${person.status} picture`} 
         width={100} height={100} 
-        className='rounded-full mb-6'/>
-      <h2 className="text-3xl text-white mb-1">{person.name}</h2>
-      <h3 className="text-xl italic text-rose-900 mb-6">{person.status}</h3>
-      <div className="flex justify-center">
+        className='rounded-full mb-8'/>
+      <h2 className="capitalize text-5xl text-white mb-4">{person.name}</h2>
+      <p className="text-base text-white mb-4">{person.description}</p>
+      <h3 className="text-xl italic text-secondary mb-8">{person.status}</h3>
+      <div className="flex justify-center gap-4">
         {Object.keys(person.socmed).map((key) => (
-          <a href={person.socmed[key]} className='hover:opacity-80 ml-3'>
-            <div dangerouslySetInnerHTML={{ __html: iconPaths[key] }} />
+          <a href={person.socmed[key]} className='text-rose-100 hover:text-rose-200'>
+            <div dangerouslySetInnerHTML={{ __html: iconPaths[key] }} className='block w-6 h-6' />
           </a>
         ))}
         
@@ -32,12 +33,12 @@ const Person = ({ person }: any) => {
 const Couple: React.FC<Props> = ({ data }) => {
 
   return (
-    <div className='max-w-screen-md py-24 mx-auto'>
+    <div className='max-w-screen-md py-24 mx-auto' id='couple'>
       <div className="text-center mb-12">
         <div className="font-display text-5xl text-white mb-5">{data.title}</div>
-        <Image className="mx-auto" src="/assets/images/icons/separator.svg" alt="separator" width={200} height={30} />
+        <i dangerouslySetInnerHTML={{ __html: iconPaths['separator'] }} className='block text-white w-60 mx-auto'/>
       </div>
-      <div className="flex flex-col md:flex-row justify-between items-center text-center">
+      <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-center">
         <Person person={data.groom} />
         <span className='font-display text-6xl text-white my-12'>&</span>
         <Person person={data.bride} />
