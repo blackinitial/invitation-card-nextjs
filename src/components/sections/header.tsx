@@ -48,7 +48,7 @@ const Header: React.FC<Props> = ({ data, firstOpen, setFirstOpen }) => {
         <div className="font-display text-8xl mb-12">{data.bridegroom}</div>
         <div className="text-2xl mb-3">{data.desc}</div>
         <Image src="/assets/images/icons/separator.svg" alt="separator" width={200} height={30} />
-        <div className="text-xl text-primary capitalize mb-12">{data.date}</div>
+        <div className="text-4xl bg-clip-text text-transparent bg-gradient-to-br from-rose-300 to-rose-600 capitalize mb-12">{data.date}</div>
         {firstOpen ? (
           <div className="flex-row justify-center items-center px-16 py-6 bg-white rounded-3xl">
             <div className="text-xl text-slate-500 mb-3">{data.line1}</div>

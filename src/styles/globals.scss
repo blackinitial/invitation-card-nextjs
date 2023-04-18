@@ -1,8 +1,5 @@
-// Google Fonts
-// Love Light
-@import url('https://fonts.googleapis.com/css2?family=Love+Light&display=swap');
-// Share
-@import url('https://fonts.googleapis.com/css2?family=Share:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+// Google Fonts: Love Light, DM Serif Display
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Love+Light&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -29,6 +26,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  @apply font-serif;
 }
 
 .overlay {

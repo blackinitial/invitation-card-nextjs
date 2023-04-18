@@ -14,7 +14,7 @@ module.exports = {
       },
       fontFamily: {
         'display': ['Love Light', 'casual', 'cursive'],
-        'mono': ['Share', 'Cutive Mono', 'monospace'],
+        'serif': ['DM Serif Display', 'Cambria', 'Times New Roman', 'Times', 'serif'],
       },
       colors: {
 				'primary': 'var(--primary)',
