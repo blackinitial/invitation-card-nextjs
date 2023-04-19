@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -40,9 +41,9 @@ export default function Home() {
           height={37}
           priority
         /> */}
-        <a href="/live" className='w-auto relative' rel="noopener noreferrer">
+        <Link href="/live" className='w-auto relative' rel="noopener noreferrer">
           <h1 className="text-5xl text-white underline">Live Invitation</h1>
-        </a>
+        </Link>
       </div>
 
       <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">

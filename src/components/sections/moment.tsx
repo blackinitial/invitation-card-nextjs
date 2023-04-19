@@ -10,7 +10,7 @@ type Props = {
 const Photos = ({ images }: any) => {
   return (
     <div className="flex flex-wrap justify-center items-center gap-8">
-      {images.map((image, i: any) => (
+      {images.map((image: any, i: any) => (
         <Image 
           src={image.src} alt={`${image.i} picture`} key={i}
           width={320} height={200} 
