@@ -9,7 +9,7 @@ type Props = {
 }
 
 const Navbar: React.FC<Props> = ({ data }) => {
-  const scrollY = useScrollPosition(60);
+  const scrollY = useScrollPosition();
   const isScrollY = scrollY > 600;
 
   return (
