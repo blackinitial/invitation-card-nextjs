@@ -86,7 +86,7 @@
     "title": "When & Where",
     "ceremony": {
       "type": "ceremony",
-      "photo": "/assets/images/events/ceremony.png",
+      "photo": "/assets/images/ceremony.png",
       "title": "THE CEREMONY",
       "date": "Sunday, 31 Desember 2023",
       "time": "09.00 AM - 12.00 AM",
@@ -94,7 +94,7 @@
     },
     "reception": {
       "type": "reception",
-      "photo": "/assets/images/events/reception.png",
+      "photo": "/assets/images/reception.png",
       "title": "THE RECEPTION",
       "date": "Sunday, 31 Desember 2023",
       "time": "09.00 AM - 12.00 AM",
@@ -102,90 +102,30 @@
     }
   },
   "moment": {
+    "title": "Captured Moments",
     "images": [
       {
-        "src": "/assets/images/moment/1.jpg",
-        "thumbnailWidth": 320,
-        "thumbnailHeight": 200
+        "src": "/assets/images/bg-1.jpeg"
       },
       {
-        "src": "/assets/images/moment/2.jpg",
-        "thumbnailWidth": 240,
-        "thumbnailHeight": 320
+        "src": "/assets/images/bg-2.jpeg"
       },
       {
-        "src": "/assets/images/moment/3.jpg",
-        "thumbnailWidth": 320,
-        "thumbnailHeight": 200
+        "src": "/assets/images/bg-3.jpeg"
       },
       {
-        "src": "/assets/images/moment/4.jpg",
-        "thumbnailWidth": 240,
-        "thumbnailHeight": 320
+        "src": "/assets/images/bg-4.jpeg"
       },
       {
-        "src": "/assets/images/moment/5.jpg",
-        "thumbnailWidth": 320,
-        "thumbnailHeight": 200
+        "src": "/assets/images/bg-5.jpeg"
       },
       {
-        "src": "/assets/images/moment/6.jpg",
-        "thumbnailWidth": 240,
-        "thumbnailHeight": 320
-      },
-      {
-        "src": "/assets/images/moment/7.jpg",
-        "thumbnailWidth": 320,
-        "thumbnailHeight": 200
-      },
-      {
-        "src": "/assets/images/moment/8.jpg",
-        "thumbnailWidth": 320,
-        "thumbnailHeight": 200
-      },
-      {
-        "src": "/assets/images/moment/9.jpg",
-        "thumbnailWidth": 240,
-        "thumbnailHeight": 320
-      },
-      {
-        "src": "/assets/images/moment/10.jpg",
-        "thumbnailWidth": 320,
-        "thumbnailHeight": 200
-      },
-      {
-        "src": "/assets/images/moment/11.jpg",
-        "thumbnailWidth": 240,
-        "thumbnailHeight": 320
-      },
-      {
-        "src": "/assets/images/moment/12.jpg",
-        "thumbnailWidth": 320,
-        "thumbnailHeight": 200
-      },
-      {
-        "src": "/assets/images/moment/13.jpg",
-        "thumbnailWidth": 240,
-        "thumbnailHeight": 320
-      },
-      {
-        "src": "/assets/images/moment/14.jpg",
-        "thumbnailWidth": 320,
-        "thumbnailHeight": 240
-      },
-      {
-        "src": "/assets/images/moment/15.jpg",
-        "thumbnailWidth": 240,
-        "thumbnailHeight": 320
-      },
-      {
-        "src": "/assets/images/moment/16.jpg",
-        "thumbnailWidth": 320,
-        "thumbnailHeight": 240
+        "src": "/assets/images/bg-6.jpeg"
       }
     ]
   },
   "location": {
+    "title": "Location",
     "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d285.53755042111686!2d110.56296259238285!3d-7.699906084245301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a437ea0610f0d%3A0x8ed9959767937a6f!2sKUA%20Kecamatan%20Kebonarum!5e0!3m2!1sid!2sid!4v1681321870136!5m2!1sid!2sid"
   }
 }

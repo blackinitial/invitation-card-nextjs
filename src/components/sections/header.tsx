@@ -9,6 +9,7 @@ import 'swiper/css/effect-fade';
 import { useScrollPosition } from '@/utils/helper';
 import { Header } from '@/types';
 import Image from 'next/image';
+import { iconPaths } from '../iconPaths';
 
 type Props = {
   data: Header,
@@ -47,7 +48,7 @@ const Header: React.FC<Props> = ({ data, firstOpen, setFirstOpen }) => {
       <div className="min-h-screen max-w-screen-md flex flex-col justify-center items-center text-center m-auto text-white">
         <div className="font-display text-8xl mb-12">{data.bridegroom}</div>
         <div className="text-2xl mb-3">{data.desc}</div>
-        <Image src="/assets/images/icons/separator.svg" alt="separator" width={200} height={30} />
+        <i dangerouslySetInnerHTML={{ __html: iconPaths['separator'] }} className='block text-white w-56 mx-auto'/>
         <div className="text-4xl bg-clip-text text-transparent bg-gradient-to-br from-rose-300 to-rose-600 capitalize mb-12">{data.date}</div>
         {firstOpen ? (
           <div className="flex-row justify-center items-center px-16 py-6 bg-white rounded-3xl">

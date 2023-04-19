@@ -8,7 +8,6 @@ type Props = {
 }
 
 const Card = ({ event }: any) => {
-  console.log(event)
   return (
     <div className="flex flex-col justify-center items-center">
       <Image 
@@ -35,7 +34,7 @@ const Card = ({ event }: any) => {
 
 const Events: React.FC<Props> = ({ data }) => {
   return (
-    <div className='bg-rose-100 py-24 mx-auto rounded-3xl' id='events'>
+    <div className='bg-rose-100 py-24 mx-auto rounded-3xl drop-shadow-sm' id='events'>
       <div className="max-w-screen-md mx-auto">
         <div className="text-center mb-12">
           <div className="font-display text-5xl text-primary mb-5">{data.title}</div>

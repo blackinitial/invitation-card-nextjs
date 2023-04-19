@@ -68,18 +68,17 @@ export interface Header {
 }
 
 export interface Location {
+  title: string;
   maps: string;
 }
 
 export interface Moment {
+  title: string;
   images: Image[];
 }
 
 export interface Image {
   src:             string;
-  thumbnail:       string;
-  thumbnailWidth:  number;
-  thumbnailHeight: number;
 }
 
 export interface Navbar {

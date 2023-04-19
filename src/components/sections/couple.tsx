@@ -20,7 +20,7 @@ const Person = ({ person }: any) => {
       <h3 className="text-xl italic text-secondary mb-8">{person.status}</h3>
       <div className="flex justify-center gap-4">
         {Object.keys(person.socmed).map((key) => (
-          <a href={person.socmed[key]} className='text-rose-100 hover:text-rose-200'>
+          <a href={person.socmed[key]} key={key} className='text-rose-100 hover:text-rose-200'>
             <div dangerouslySetInnerHTML={{ __html: iconPaths[key] }} className='block w-6 h-6' />
           </a>
         ))}

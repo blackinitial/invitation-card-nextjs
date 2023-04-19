@@ -4,6 +4,9 @@ import { useState } from "react";
 import Header from "@/components/sections/header";
 import Couple from "@/components/sections/couple";
 import Events from "@/components/sections/events";
+import Moment from "@/components/sections/moment";
+import Location from "@/components/sections/location";
+import Footer from "@/components/sections/footer";
 
 export default function LivePage () {
   const [firstOpen, setFirstOpen] = useState(true);
@@ -17,6 +20,9 @@ export default function LivePage () {
         <>
           <Couple data={data.couple} />
           <Events data={data.events} />
+          <Moment data={data.moment} />
+          <Location data={data.location} />
+          <Footer />
         </>
       )}
       
