@@ -41,7 +41,7 @@ const Header: React.FC<Props> = ({ data, firstOpen, setFirstOpen }) => {
     );
   };
 
-  const scrollY = useScrollPosition(60);
+  const scrollY = useScrollPosition();
 
   const renderContent = () => {
     return (
